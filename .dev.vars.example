@@ -1,0 +1,11 @@
+# 本機測試用機密範本 —— 複製這個檔為 .dev.vars 後填入真實值
+#   cp .dev.vars.example .dev.vars
+#
+# .dev.vars 已被 .gitignore 擋掉，不會進 git；本檔 (.example) 只有欄位名，可安全進 git。
+# 正式部署時改用：npx wrangler secret put AUTOIP_TOKEN / LINE_TOKEN
+
+# autoip.app 出圖 API 金鑰
+AUTOIP_TOKEN=
+
+# LINE Messaging channel access token（LINE Developers Console 取得）
+LINE_TOKEN=
