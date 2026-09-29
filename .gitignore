@@ -1,0 +1,14 @@
+# Secrets — 絕對不要進 git
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# Dependencies
+node_modules/
+
+# Wrangler
+.wrangler/
+
+# Logs
+*.log
+tmp/*
